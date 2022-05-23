@@ -11,7 +11,6 @@ firebase_admin.initialize_app(cred)
 db = firestore.client()
 data_psycho = {} #temp place for storing psychologists data
 
-@app.route()
 
 # /psycho API endpoint with GET http request
 # This API return list of all pyschologists information
